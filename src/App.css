@@ -1,0 +1,140 @@
+@font-face {
+    font-family: Impacted20;
+    src: url("./components/assets/fonts/Impacted2.0.ttf");
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    overflow: auto !important;
+}
+
+p {
+    font-size: 1em;
+    font-weight: 100;
+}
+
+strong {
+    font-weight: 500;
+}
+
+.bg-green {
+    background-color: #8e9d00;
+    padding-top: 8vw;
+    padding-bottom: 2%;
+    margin-bottom: 8%;
+    min-height: 50vh;
+}
+
+.relative-wrapper {
+    position: relative;
+}
+
+.header-lg {
+    font-size: 4em;
+}
+
+.reenie-text {
+    font-family: "Reenie Beanie", cursive;
+}
+
+.impacted-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+}
+
+.text-bg-black {
+    color: #fff;
+    background-color: #000;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.light-text {
+    padding-top: 0%;
+    padding-right: 14%;
+    color: #fff;
+    opacity: 0.9999;
+    font-size: 12px;
+}
+
+.light-text p {
+    font-weight: 100;
+}
+
+.center-content {
+    text-align: center;
+}
+
+.text-light-green {
+    color: #8e9d00;
+}
+
+.text-red {
+    color: #da1229;
+}
+
+.button-green {
+    color: #fff;
+    font-size: 0.8em;
+    padding: 12px;
+    text-align: center;
+    background-color: #485017;
+    display: block;
+    margin: auto;
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.button-green:hover {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.button-red {
+    color: #fff;
+    font-size: 0.8em;
+    padding: 12px;
+    text-align: center;
+    background-color: #da1229;
+    display: inline-block;
+    margin: auto;
+    width: 49%;
+    border-radius: 3px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.button-red:hover {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.space-left {
+    margin-left: 10px;
+}
+
+.text-red {
+    color: #da1229;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 57vw;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 57vw;
+    }
+}
+
+@media (max-width: 800px) {
+    .button-red {
+        width: 100%;
+    }
+}
